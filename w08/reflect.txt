@@ -1,0 +1,23 @@
+1. What is the difference between an abstract base class and a concrete class?
+
+1.Abstract base classe-  a class in which one or more methods within that class is declared but not defined 
+
+2.concrete class - a class in which a method that exists within the class itself without any derived class's help.
+
+2. Identify the functions that shadow functions of the same name in your solution?
+
+ChequingAccount::display() shadows SavingsAccount::display().
+ChequingAccount::credit() shadows Account::credit(). 
+ChequingAccount::debit() shadows Account::debit().
+ChequingAccount::monthEnd() shadows SavingsAccount::monthEnd().
+
+
+3. Explain what have you learned in this workshop.
+
+I learned about the difference between an abstract base class and a concrete class. also I learned about the use of  shadow function. 
+
+quiz 8
+1. static binding- function to call in a class that employs inheritance is made at compile time.
+dynamic binding-function to use in a virtual function table, which takes a little time, making dynamic binding slower.
+2.A virtual function - a member function which is declared within base class and is re-defined by derived class.
+3.An abstract class-this class contains at least one pure virtual function.  it can be declared as  a pure virtual function by using a pure specifier (= 0) in the declaration of a virtual member function in the class declaration.

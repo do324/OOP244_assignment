@@ -1,0 +1,29 @@
+1)	How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+        40, . because 40 values represent the maximum number of characters for any name of the account holder. 
+        
+2)	Your class declares two member functions named set(...).  In C, this would generate an error.  Name the feature of C++ that allows this.
+        MEMBER FUNCTION PARAMETERS,const 
+
+3)	What have you learned during this workshop?
+
+        I learned about MEMBER FUNCTION PARAMETERS and const.I learned that const for the parameter only applies locally within the function, since it is working on a copy of the data. 
+
+
+-----quiz2
+2.empty space is If the data is invalid, we can reject it and store default values that identify the object's state as an empty state. 
+
+3.The const qualifier identifies the member function as a query.  A query does not change the state of its object.  That is, this query cannot change the value of no or any grade. 
+As a member function, display() has direct access to the data members (no and grade).  There is no need to pass their values as arguments to the function.
+
+4.  query method.
+
+
+-----quiz1
+
+3.with respect to scope, what is whadowing?
+shadowing occurs when a variable declared within a certain scope has the same name as a variable declared in an outer scope.
+
+
+
+****
+Dear professor sorry about i missed quiz1 reflection last week. I uploaded quiz.txt file in w2 folder but i didn't add it in reflect.txt. 

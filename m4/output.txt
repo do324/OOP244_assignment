@@ -1,0 +1,28 @@
+Script started on Fri 03 Aug 2018 05:26:55 PM EDT
+[dkim126@mtrx-node06pd m4]$ mw[[[Kms4
+Linear: one two 
+As is: 
+one
+two
+
+Enter the following: 
+three<ENTER>
+four<ENTER>
+Ctrl^D<ENTER>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sku match
+Product < Perishable
+45|32|131|32
+113.5
+[dkim126@mtrx-node06pd m4]$ exit
+exit
+
+Script done on Fri 03 Aug 2018 05:27:15 PM EDT

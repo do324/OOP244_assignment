@@ -1,0 +1,10 @@
+1. What is a namespace? Explain its purpose.
+namespace can prevent collsions of name tant can occur when function and variables's names are same. 
+2. Why are header files needed? Explain.
+header file is convenient when programming is long and complex. header file can get the declaration of functions and i can call thes fuctions later. 
+3. In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files.
+becuase header files do not need to complie for programming. header file is independent. this header file includes declaration of functions. 
+4. Explain why you should never include .cpp files in another file. 
+because functions can be compiled once at a time. if a .cpp files include another .cpp file this make an error.  
+5. Explain in your own words what have you learned on this workshop.
+i cam learn what is namespace, the purpose of namespace and how to use it. Also, i learned what is safe guards and why this is needed in programming.  

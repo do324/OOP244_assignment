@@ -1,0 +1,14 @@
+Script started on Tue 30 Jan 2018 04:51:59 PM EST
+dkim126@matrix:~/w02> ws
+Please enter the amount to be paid: $8.68
+GST: 1.13
+Balance owing: $9.81
+Loonies required: 9, balance owing $0.81
+Quarters required: 3, balance owing $0.06
+Dimes required: 0, balance owing $0.06
+Nickels required: 1, balance owing $0.01
+Pennies required: 1, balance owing $0.00
+dkim126@matrix:~/w02> exit
+exit
+
+Script done on Tue 30 Jan 2018 04:52:28 PM EST

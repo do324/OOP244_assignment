@@ -1,0 +1,10 @@
+
+In line number 7 of your output:
+The output should be:
+Please enter your social insurance number (0 to quit): 193456787
+But your output is: 
+Please enter your social insurance number (0 to quit): ^[[4~^[[5~^[[6~^[[D^L^[[C^[[2~^[[A^[[2~
+                                                       ^
+-------------------------------------------------------|
+Professor's character ASCII code: hex(31), dec(49)
+un-matched character ASCII code: hex(5e), dec(94)

@@ -1,0 +1,2 @@
+3.with respect to scope, what is whadowing?
+shadowing occurs when a variable declared within a certain scope has the same name as a variable declared in an outer scope.

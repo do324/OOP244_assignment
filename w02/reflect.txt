@@ -1,0 +1,9 @@
+1) Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory? 
+because the platform that includes memory is limited. when i dont increasce size of and arry of allocated memory, the applicaion may can not work.
+2) The Kingdom structure stores the name of the kingdom in an array of characters. At the end of the program, we do not use the delete operator to deallocate the memory occupied by the name. Why don’t we need to use the delete operator on this array itself? Explain.
+becasue delete oerator expects a pointer to a block of memory, previously allocated by operator.
+3) There are two display(...) function definitions. How does the compiler know which definition to call from your main function?
+first compiler allocates memory for each instance variable in the order listed in the class definition and then executes the logic, if any, within the constructor's definition
+  
+4) Explain what have you have learned in this workshop. 
+i learned how to allocate memory and deallocate that memory for an array. 

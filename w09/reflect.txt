@@ -1,0 +1,17 @@
+1.	What happens if you try to put your templated functions in Data.cpp? Does your source code compile if you move all functions to Data.h? Explain.
+
+when i put templated functions in Data.cpp, compile error was occured. readRow() and the design() was not readable. beacuse compliler can not see template and fuctions at the sametiome. 
+
+2. Move one templated function into ws9_lab.cpp. Does it work now? Do you need to define the template function above main(), before it is used, or can you define it below main()?
+
+when above main() and below main(), a max() function was not reandable.
+
+3. Could you have done this lab without templates, by just overloading your functions in Data.h to accept integer and double arguments? What is the advantage of using templates?
+
+this is possible without templates but it is can occur overriding error, Templates are typesafe. templates can make possible to the compiler can perform type checking before errors occur .
+
+4. Are the following equivalent? template<class T>
+template<typename T>
+
+Yes, they are equivalent. they are both identify a type.
+

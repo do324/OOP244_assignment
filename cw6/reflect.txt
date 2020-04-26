@@ -1,0 +1,16 @@
+1)	Why does the copy assignment operator check for self-assignment before do-ing anything else?
+because if we neglect checking for self-assignment, the deallocation statement will deallocate the memory holding the resource data and we will lose access to the resource and our logic would fail at the std::strlen call. 
+
+2)	List how you avoided duplication of code.
+Private Member Function,Direct Call
+3)	List what you have learned in completing this workshop.
+I learned how to avoid duplication of my codes and how to use ASSIGNMENT OPERATOR and why this is needed. 
+
+Quiz 5 Reflection. 
+
+5.certain class designs require prohibiting client code from  copying or 
+copy assignment any instance of a class. what can be done to prohibiting copying
+and/or copy assignment.
+
+delete();
+ this way prohibit copying and/or copy assigning by delete copy constructor and copy assignment operator

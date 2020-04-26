@@ -1,0 +1,34 @@
+1.	The operator+ returns a Fraction object. Explain why this operatoshould not return a reference to a Fraction object.
+because it is the The post-fix operator.  The post-fix operator returns a copy of the current object before other changes affect them.  
+2.	List the temporary objects in the tester module.
+Fraction()
+Fraction::max()
+Fraction::min()
+int Fraction::gcd()
+Fraction::reduce() 
+display()
+isEmpty()
+3.	List the simplifications that you made to your class to minimize duplication.
+bool operator
+BINARY OPERATORS
+Post-Fix Operators
+TEMPORARY OBJECTS
+
+4.	Explain what you have learned in this workshop.
+ I learned about how to mininimize dupliction in my code and duplication is not good to run a programming. 
+
+
+quiz4____
+
+2. c++ allow us to introduce or define new operators?
+true
+3.the +operator is an example of a binary operator?
+false
+4. helper function is settled out of the class and support it (member).
+
+5.class bloat means the code that is percieved as unnecessarily long, slow, or otherwise wasteful of resources. 
+
+6.If a function is defined as a friend function then, the private and protected data of a class can be accessed using the function.
+
+The complier knows a given function is a friend function by the use of the keyword friend.
+

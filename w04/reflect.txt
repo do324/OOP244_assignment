@@ -1,0 +1,16 @@
+1)	What is a safe empty state? Could you define another state as the safe empty state?
+it's mean that my code knows that the object is not yet defined. to safe empty state i have to initialize it.
+
+2)	Describe how you have minimized code duplication.
+        I have several contructors that included one class to minimize code duplication.
+ 
+
+3)	Explain why the canTravelWith(...) member function can access the pri-vate data of the object referenced in its parameter.
+this constructor is class' member function and as such has access to class' data members, even those is is private data.
+
+4)	What statement do you need to add to ensure that the strncpy(...) func-tion executes correctly?
+null "\0' is needed to strncpy executes correctly.
+
+5)	Explain what you have learned in this workshop.
+
+I learned about how to minimize code duplication and code duplicaiton can causes an increase in software size and managing hard to the code

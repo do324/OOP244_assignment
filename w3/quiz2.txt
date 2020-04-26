@@ -1,0 +1,6 @@
+2.empty space is If the data is invalid, we can reject it and store default values that identify the object's state as an empty state. 
+
+3.The const qualifier identifies the member function as a query.  A query does not change the state of its object.  That is, this query cannot change the value of no or any grade. 
+As a member function, display() has direct access to the data members (no and grade).  There is no need to pass their values as arguments to the function.
+
+4.  query method.

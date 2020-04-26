@@ -1,0 +1,10 @@
+
+In line number 22 of your output:
+The output should be:
+Christopher Szwart - Toronto
+But your output is: 
+Christopher Szwartzenneger - Toronto
+                  ^
+------------------|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(7a), dec(122)

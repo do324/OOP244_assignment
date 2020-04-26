@@ -1,0 +1,50 @@
+Script started on Sat 06 Oct 2018 08:17:07 PM EDT
+----------------------------------------
+Testing the validation logic
+(only passengers 5, 8, 11 and 14 should be valid)
+----------------------------------------
+Passenger 1:  -  on 0/00/0
+Passenger 2:  -  on 0/00/0
+Passenger 3:  -  on 0/00/0
+Passenger 4:  -  on 0/00/0
+Passenger 5: John Smith - Toronto on 2018/1020
+Passenger 6:  -  on 0/00/0
+Passenger 7:  -  on 0/00/0
+Passenger 8: John Smith - Toronto on 2020/1231
+Passenger 9:  -  on 0/00/0
+Passenger 10:  -  on 0/00/0
+Passenger 11: John Smith - Toronto on 2018/101
+Passenger 12:  -  on 0/00/0
+Passenger 13:  -  on 0/00/0
+Passenger 14: Christopher Szwartenegger - Toronto on 2017/07/1
+Passenger 15:  -  on 0/00/0
+Passenger 16:  -  on 0/00/0
+----------------------------------------
+
+----------------------------------------
+Testing Passenger::display(...)
+----------------------------------------
+Vanessa - Toronto on 2018/1020
+John - Toronto on 2018/1020
+Alice - Toronto on 2018/1020
+Bob - Paris on 2018/1120
+Jennifer - Toronto on 2018/1020
+Mike - Toronto on 2018/1020
+Christopher Szwartenegger - Toronto on 2018/1020
+Sarah - Toronto on 2018/1020
+----------------------------------------
+
+----------------------------------------
+Testing Passenger::canTravelWith(...)
+----------------------------------------
+David can travel with Vanessa
+David can travel with John
+David can travel with Alice
+David can travel with Jennifer
+David can travel with Mike
+David can travel with Christopher Szwartenegger
+David can travel with Sarah
+----------------------------------------
+
+
+Script done on Sat 06 Oct 2018 08:17:07 PM EDT
